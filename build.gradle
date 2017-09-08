@@ -32,8 +32,9 @@ dependencies {
     implementation 'com.google.guava:guava:21.0'
     
 	compile("org.springframework.boot:spring-boot-starter-web")
-    compile("org.thymeleaf:thymeleaf-spring4")
-    compile("nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect")
+    compile("org.springframework.boot:spring-boot-starter-thymeleaf")
+    compile("org.springframework.boot:spring-boot-devtools")
+    compile("org.webjars:bootstrap:3.3.7")
     providedRuntime("org.springframework.boot:spring-boot-starter-tomcat")
 	
 	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-gradle-plugin
